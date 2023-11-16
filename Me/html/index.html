@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="main.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-grid.min.css" integrity="sha512-JQksK36WdRekVrvdxNyV3B0Q1huqbTkIQNbz1dlcFVgNynEMRl0F8OSqOGdVppLUDIvsOejhr/W5L3G/b3J+8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Nguyen Thuong</title>
+</head>
+<body>
+        <div id="header">
+            <a href="index.html"><img src="/img/logo.png" alt="" class="header-logo"></a>
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <!-- <li><a href="#content__link">About</a></li> -->
+                <li><a href="aboutMe.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon fas fa-bars"></i>
+              </div>
+        </div>
+        <div id="slider">
+            <div class="slider__text half-left">
+                <div class="text__content">
+                    <h3>This is me</h3>
+                    <h1>THUONG NGUYEN</h1>
+                    <p>You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.</p>
+                </div>
+                <div >
+                    <button>DISCOVER NOW</button>
+                </div>
+            </div>
+            <div class="slider__img half-right">
+                <img src="/img/xyz.jpg" alt="" class="aboutMe">
+            </div>
+        </div>
+
+
+        <div id="content">
+            <div class="content__img half-left1" id = "content__link">
+                <img src="/img/slider_img--aboutMe.jpg" alt="" class="content-img">
+            </div>
+            <div class="content__text half-right1">
+                <div class="text__content">
+                    <h3>About me</h3>
+                    <h1>Personal details</h1>
+                    <p>Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+                <div>
+                    <a href="http://127.0.0.1:5500/aboutMe.html"><button>VIEW FULL DETAILS</button></a>
+                </div>
+            </div>
+            <div class ="myHobby">
+                <div class="hobby">
+                   <h1>My hobbies</h1>
+                </div>
+              <div class="row">
+                     <div class="col-sm-3">
+                        <h2>Draw</h2>
+                        <img src="/img/daw-img.jpg" alt="" class="img--draw">
+                    </div>
+                    <div class="col-sm-3">
+                        <h2>Listen to music</h2>
+                        <img src="/img/music-listening-img.jpg" alt="" class="img--draw">
+                    </div>
+                    <div class="col-sm-3">
+                        <h2>Plant tree</h2>
+                        <img src="/img/plantTree-img.jpg" alt="" class="img--draw">
+                    </div>
+                    <div class="col-sm-3">
+                         <h2>Reading book</h2>
+                        <img src="/img/readingBook-img.avif" alt="" class="img--draw">
+                    </div>
+                </div>
+          </div>
+        </div>
+        <div id="contactMe">
+            <div class="contact">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="container" style="width: 70%; background-color: #e9f0f9;">
+               <form action="action_page.php" style="padding: 1rem 5rem">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                <label for="lname">Subject</label>
+                <input type="text" id="lname" name="lastname" placeholder="Subject..">
+            
+            
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <div class = "buttonContact">
+                    <button>SEND MESSAGE</button>
+                </div>
+            
+              </form>
+            </div>
+        </div>
+</body>
+
+     <div id="footer">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 col-sm-6">
+                    <h3>About me</h3>
+                    <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.</p>
+                </div>
+                <div class="col-lg-5 col-md-6 col-sm-6">
+                    <h3>Newsletter</h3>
+                    <p>Stay updated with our latest trends</p>
+                    <div class="footer__form">
+                       <form action="/action_page.php">
+                           <input type="text" id="email" value="Enter your email">
+                           <button class="btn btn-default" type="submit">
+                            <span class="lnr lnr-arrow-right"></span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                         </input>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <h3>Follow me</h3>
+                    <p>Let us be social</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/nguyenthithuong.ntt"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/__nguynthi__/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/hathuong01"><i class="fa-brands fa-github"></i> </a>
+                    </div>
+                </div>
+              </div>
+        </div
+ </html>

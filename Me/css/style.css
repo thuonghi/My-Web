@@ -1,0 +1,759 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #dbe7f5;
+    --word-color: #777;
+    --button-color: #4b8dea;
+    --button-hover-color: #408545;
+}
+html {
+    scroll-behavior: smooth; 
+    background-color: #fff;
+    max-width: 100%;
+
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #ffff;
+    line-height: 1.7;
+    font-weight: 25rem;
+    color: #777;
+}
+
+
+.half-left {
+    width: 50%;
+    float: left;
+    background-color: #FFFFFF;
+    height:800px;
+}
+.half-right {
+    width: 50%;
+    float: right;
+    background-color: #FFFFFF;
+    height: 800px;
+}
+
+.half-left1 {
+    width: 50%;
+    float: left;
+    background-color: #FFFFFF;
+    height:700px;
+}
+.half-right1 {
+    width: 50%;
+    float: right;
+    background-color: #FFFFFF;
+    height: 700px;
+}
+
+.half-left2 {
+    width: 40%;
+    float: left;
+    background-color: #f3f3f9;
+    height:750px;
+}
+.half-right2 {
+    width: 60%;
+    float: right;
+    background-color: #f3f3f9;
+    height: 750px;
+}
+
+.half-left3 {
+    width: 50%;
+    float: left;
+    background-color: #f7f4f4;
+    height:500px;
+}
+.half-right3 {
+    width: 50%;
+    float: right;
+    background-color: #f7f4f4;
+    height: 500px;
+}
+
+.half-left4 {
+    width: 50%;
+    float: left;
+    background-color: #f7f4f4;
+    height:750px;
+}
+.half-right4 {
+    width: 50%;
+    float: right;
+    background-color: #f7f4f4;
+    height: 750px;
+}
+
+/* HEADER */
+#header {
+    position: fixed;
+    width: 100%;
+    height: 76px;
+    background-color: var(--main-color);
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-img {
+    display: inline-block;
+
+}
+.header-logo {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    top: 0;
+    height: 76px;
+}
+
+#nav {
+    display:inline-block;
+    /* float: right; */
+    margin-bottom: 0 ;
+    /* padding-right:50px */
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #7d7979;
+    text-transform: uppercase;
+    padding: 0 30px;
+    line-height: 76px;
+    display: block;
+    font-weight: 500;
+}
+
+#nav li a:hover {
+    transform: translateY(-2px);
+    color: var(--button-color);
+    text-shadow: 0 0.7rem 1rem rgb(159, 159, 159);
+}
+
+
+#header .mobile-menu-btn  {
+    float: right;
+    top:0;
+    right:0;
+    /* display: none; */
+    
+ }
+ #header .mobile-menu-btn:hover {
+    background-color:#ccc;
+    color: #000;   
+}
+
+#header .mobile-menu-btn:hover {
+    background-color:#ccc;
+    
+}
+
+#header .mobile-menu-btn:hover .menu-icon {
+    background-color:#ccc;
+    color: #000;
+}
+/* SLIDER*/
+#slider {
+    position: relative;
+    display: block;
+    padding-top: 76px;
+}
+
+.slider__text {
+    padding-top: 10%;
+    padding-left: 80px;
+    padding-right: 25px;
+}
+
+.slider__text h3, 
+.slider__text h1, 
+.content__text h3, 
+.content__text h1,
+.hobby h1,
+.contact h1
+{
+    color: #222222;
+    text-transform: uppercase;
+}
+.slider__text h3, .row h2 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0
+}
+
+.slider__text h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 20px 0
+}
+.slider__text p {
+    margin-bottom: 1rem;
+    font-size: 20px
+}
+
+.slider__text button {
+    background-color: #4b8dea;
+    border:none;
+    height: 40px;
+    width: 170px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 6px;
+    margin-top: 1rem
+}
+
+#slider__img {
+    display: block;
+}
+.aboutMe  {
+    object-fit:cover;
+    display: inline-block;
+    width: 100%;
+    height: 750px;
+    padding: 50px 150px 40px 0;
+}
+
+/* Content */
+
+.content__img {
+    display: block;
+}
+
+.content-img {
+    margin-top: 5rem;
+    object-fit: cover;
+    display: block;
+    width: 60%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content__text {
+    padding-top: 8%;
+    padding-right: 25px;
+}
+
+.content__text p {
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    font-size: 20px
+}
+
+.content__text button {
+    background-color: #4b8dea;
+    border:none;
+    height: 40px;
+    width: 170px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 6px;
+    margin-top: 5rem
+}
+.content__text button:hover {
+    background-color: #186ee6;
+}
+
+/* HOBBY */
+.hobby h1 {
+    color: var(--button-color);
+}
+.hobby h1 , .contact h1 {
+   text-align: center;
+   text-align: center;
+   margin: 5rem;
+   color: var(--button-color)
+}
+.row {
+    padding: 0 0 5rem;
+}
+.row h2 {
+    text-align: center;
+}
+.img--draw {
+    margin-top: 3rem;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*contactMe */
+
+#contactMe {
+    margin-bottom: 7rem;
+}
+.contact--img {
+    margin-top: 3rem;
+    object-fit:fill;
+    display: block;
+    width: 70%;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.buttonContact button {
+    background-color: #4b8dea;
+    border:none;
+    height: 40px;
+    width: 170px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 6px;
+    margin-top: 2rem;
+}
+.buttonContact button:hover {
+    background-color: #186ee6;
+}
+/* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4b8dea;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #4b8dea;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+/* Footer */
+#footer .row {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 10rem 4rem
+}
+
+#footer h3, #footer p {
+    color:#6f6d6d;
+    padding-right: 10%;
+
+}
+
+
+
+.footer__form input {
+    width:80%;
+}
+#footer .btn {
+    background-color: var(--button-color);
+    height: 48px;
+    margin-bottom: 5px;
+}
+
+#footer .btn:hover {
+    background-color:#186ee6 ;
+}
+
+.footer__form i {
+    color: #fff ;
+    font-size: 30px;
+    /* padding:1rem 5px 1rem; */
+    /* background-color: #408545; */
+}
+
+.footer__form input {
+    color:#7d7979
+}
+.social {
+    display:block
+}
+
+.social a {
+   text-decoration: none;
+   text-align: center;
+   color: #928e8e;
+   padding: 0 5px;
+}
+
+
+
+/* ABOUT ME PAGE */
+
+#content {
+    padding-top: 76px;
+}
+
+
+#content .aboutMePage {
+    filter: blur(0.6px); 
+    border-radius: 100%;
+    width: 70%;
+    height: 80%;
+    margin-left: 0rem;
+    object-fit:cover;
+    margin-top: 3rem;
+    box-shadow: 90px 0px 80px 40px rgb(122, 172, 241) ;
+}
+
+#content .content__info {
+    padding: 5rem 0 10rem 10rem;
+}
+#content .content__info h3, h4 {
+    padding: 10px 0;
+}
+#content .content__info h1 {
+    font-size: 80px;
+    padding: 0 0 40px;
+    color: var(--button-color);
+    font-weight: 700;
+
+}
+
+#content .content__info h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#content .content__info h4 {
+    font-size: 20px;
+    color: #4374b1;
+}
+
+
+
+/* ACADEMIC */
+
+.myHobby {
+    background-color: #f7f4f4;
+}
+
+.academic__title h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 8rem 0 3rem;
+    color: var(--button-color)
+}
+.academic__detail {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.academic__detail--level {
+    text-align: center;
+    margin: 10px 0;
+}
+.academic__detail--level h5 {
+    padding: 1rem 20px;
+    text-align: left;
+}
+.academic__detail--level p {
+    text-align: left;
+    padding: 0 20px;
+
+}
+
+.award h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8rem 0 2rem ;
+    color: var(--button-color)
+}
+
+.award__detail {
+    text-align: center;
+    margin: 1rem 0 0 0
+}
+
+.award__detail h4 {
+    margin: 0 0 0rem 7rem
+}
+
+.skill_detail {
+    text-align: left;
+}
+
+.award__detail--level {
+    padding: 1.5rem 20px;
+    text-align: left;
+}
+
+.skill__detail--level p {
+    padding: 4px 0;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.aboutMe__hobby h1 {
+    font-size: 50px;
+    padding: 0 0 40px;
+    color: var(--button-color);
+    font-weight: 700;
+}
+
+
+/* BLOG PAGE */
+#sliderBlog {
+    background-color: #eeeeee ;
+   position: relative;
+   display: block;
+   padding-top: 76px;
+}
+.sliderImg {
+    margin-top: 3rem;
+    object-fit: cover;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+#sliderBlog h1 {
+    margin: 3rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.slider__title {
+    padding: 6rem 0 0;
+}
+#contentBlog {
+    padding-top: 76px;
+
+}
+
+#contentBlog h1 {
+    padding: 4rem 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    color: #807b7b
+}
+
+#contentBlog h3 {
+    text-align: center;
+    color: #696565;
+}
+
+#sliderBlog .slider__title h1{
+    font-size: 60px;
+    padding: 15px 0 30px;
+    color: #eacdcd;
+    font-weight: 800;
+}
+
+/* FLIPCARD */
+
+.blogImg img {
+    position: relative;
+    margin-top: 7rem;
+    object-fit: cover;
+    display: block;
+    width: 93%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.blogImg a {
+    text-decoration: none;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.blogImg h2 {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.blogImg p {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.blogImg h4 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-flipCard {
+    margin-top: -20px;
+    width: 100px;
+    height: 70px;
+    border-radius: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    border-style: none;
+    background-color: rgba(251,9,48,.8);
+    color: #fff;
+    font-weight: 500;
+}
+.listImg {
+    width:150px;
+    height:1200px;
+    overflow-x:hidden;
+    overflow-y:scroll; 
+    margin-top: 2rem;
+}
+
+
+.listImg a {
+    padding: 3rem 0 1rem 10rem;
+    color:#545353;
+    display:block;
+
+
+}
+
+.listImg img {
+    position: relative;
+    margin-top: 1rem;
+    object-fit: cover;
+    display: block;
+    width: 70%;
+    height: 300px;
+    margin-left: 5rem;
+    margin-right: 2rem;
+    
+}
+
+/* REVIEW BOOk page */
+
+.aboutBook .slider {
+    position: relative;
+    margin-top: 2rem;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+.aboutBook img {
+    position: relative;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem
+}
+
+.aboutBook h1 {
+    padding: 2rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:var(--button-color);
+    text-align: center;
+}
+.aboutBook h4 {
+    text-transform: uppercase;
+
+}
+.aboutBook p, .aboutBook h5 {
+
+    font-size: 20px;
+    padding: 15px 60px;
+}
+
+.impression, .author, .bookContent,.bookSection {
+    margin: 3rem 3rem
+}
+
+
+
+#sliderBook {
+    background-color: #fff;
+    height: 5rem
+}
+
+#bookTitle h1, #collegeTitle h1 {
+    margin-top: 10rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--button-color)
+}
+
+#bookTitle h3, #collegeTitle h3 {
+    text-align: center;
+    color: #696565;
+}
+
+/* #flipCard {
+    background-color: #f7f4f4;
+} */
+
+/* Contact page */
+
+#contactMe .contact h2 {
+    padding: 10rem 0 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    color: var(--button-color);
+    font-weight: 700;
+}
+
+.contact button:hover {
+    background-color: #186ee6;
+}
+
+.mobile-menu-btn  {
+    float: right;
+    line-height: 76px;
+    padding: 1px 24px;
+    
+ }
+.mobile-menu-btn  {
+    position: absolute;
+    top:0;
+    right:0;
+} 
+.mobile-menu-btn:hover {
+    background-color:#ccc;
+    
+}
+
+.mobile-menu-btn:hover .menu-icon {
+    background-color:#ccc;
+    color: #000;
+}

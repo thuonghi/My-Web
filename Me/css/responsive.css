@@ -1,0 +1,44 @@
+
+@media (max-width:46.1875em) {
+
+    #nav {
+        display: block;
+        width: 100%;
+    }
+
+    #nav li {
+        display: block;
+    }
+
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+    }
+
+    .header-logo {
+        display: none
+    }
+
+    .slider-text {
+        position: absolute;
+        flex-wrap: nowrap;
+        flex-basis: 33%;
+    }
+    .text-description {
+    display: none
+    }
+    .slider_text {
+        color: #fff;
+        letter-spacing: 1rem;
+        font-weight: 500;
+        font-size: 50px;
+    }
+
+}
